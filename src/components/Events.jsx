@@ -1,7 +1,5 @@
-
-
 const Events = (props) => {
-  const  {events } = props
+  const { events } = props
   return (
     <ul>
     {

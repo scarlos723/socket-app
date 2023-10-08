@@ -1,13 +1,12 @@
+import { socket } from '../socket'
 
-import { socket } from '../socket';
-
-export default function ConnectionManager() {
-  function connect() {
-    socket.connect();
+export default function ConnectionManager () {
+  function connect () {
+    socket.connect()
   }
 
-  function disconnect() {
-    socket.disconnect();
+  function disconnect () {
+    socket.disconnect()
   }
 
   return (
@@ -15,5 +14,5 @@ export default function ConnectionManager() {
       <button onClick={ connect }>Connect</button>
       <button onClick={ disconnect }>Disconnect</button>
     </>
-  );
+  )
 }

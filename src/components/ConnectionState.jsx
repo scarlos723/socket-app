@@ -1,6 +1,3 @@
-
-
-
 const ConnectionState = (props) => {
   const { isConnected } = props
   return (
@@ -8,6 +5,4 @@ const ConnectionState = (props) => {
   )
 }
 
-
-
-export default ConnectionState;
+export default ConnectionState
